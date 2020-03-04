@@ -1,3 +1,7 @@
+input.onGesture(Gesture.Shake, function () {
+    // 0=Stop
+    radio.sendNumber(0)
+})
 basic.showArrow(ArrowNames.North)
 radio.setGroup(13)
 basic.forever(function () {
