@@ -3,7 +3,7 @@ input.onGesture(Gesture.Shake, function () {
     radio.sendNumber(0)
 })
 basic.showArrow(ArrowNames.North)
-radio.setGroup(13)
+radio.setGroup(26)
 basic.forever(function () {
     if (input.buttonIsPressed(Button.AB)) {
         // 1 = Forward
